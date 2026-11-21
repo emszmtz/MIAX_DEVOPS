@@ -14,4 +14,4 @@ def test_suma():
 def test_resta():
     response = client.get("/resta", params={"a": 2, "b": 2})
     assert response.status_code == 200
-    assert response.json() == 1
+    assert response.json() == 0

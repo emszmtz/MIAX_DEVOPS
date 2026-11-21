@@ -1,0 +1,2 @@
+[tool.ruff]
+src = ["ejemplos/tests/ejemplo_1", "ejemplos/tests/ejemplo_2"]
